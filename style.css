@@ -1,0 +1,51 @@
+.box {
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+    background: pink;
+    margin: 100px auto;
+}
+
+.ball {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    background: red;
+    border-radius: 50%;
+    animation: moving 2s linear infinite;
+}
+
+
+@keyframes moving {
+    0% {
+        top: 0;
+        left: 0;
+    }
+    25% {
+        top: 0;
+        left: 400px;
+        background: cyan;
+    }
+    50% {
+        top: 400px;
+        left: 400px;
+        background: green;
+    }
+    /* 75% { */
+        /* top: 400px; */
+        /* left: 0px; */
+        /* background: yellow; */
+    /* } */
+    /* 100% { */
+        /* top: 0; */
+        /* left: 0; */
+        /* background: black; */
+    /* } */
+    100% {
+        top: 0;
+        left: 0;
+        background: black;
+    }
+}

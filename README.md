@@ -1,6 +1,6 @@
 ## My Project: bouncing_ball
 
-Some text about my project.
+[Pastor Canayo's CSS Animation Moving Ball](https://www.youtube.com/watch?v=vSqDq_vxs0c)
 
 __Checklist__
 
